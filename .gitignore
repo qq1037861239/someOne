@@ -1,0 +1,4 @@
+#ignore file for windows 10
+/target/
+/.idea/
+*.iml
