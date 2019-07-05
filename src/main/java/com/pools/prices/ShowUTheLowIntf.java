@@ -1,6 +1,4 @@
-package com.pools.hooks;
-
-import com.pools.hooks.ShowPricesIntf;
+package com.pools.prices;
 
 @FunctionalInterface
 public interface ShowUTheLowIntf/* extends ShowPricesIntf*/ {

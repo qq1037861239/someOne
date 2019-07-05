@@ -1,6 +1,6 @@
-package com.pools.hooks.impls;
+package com.pools.prices.impls;
 
-import com.pools.hooks.GetDefaultPrice;
+import com.pools.prices.GetDefaultPrice;
 
 public class GetThePrice extends GetDefaultPrice {
 

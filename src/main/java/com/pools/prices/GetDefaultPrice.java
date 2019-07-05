@@ -1,4 +1,4 @@
-package com.pools.hooks;
+package com.pools.prices;
 
 public abstract class GetDefaultPrice implements ShowPricesIntf {
 

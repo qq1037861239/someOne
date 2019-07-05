@@ -1,9 +1,8 @@
 package com.pools.doing;
 
-import com.pools.hooks.GetDefaultPrice;
-import com.pools.hooks.ShowPricesIntf;
-import com.pools.hooks.impls.GetLowPrice;
-import com.pools.hooks.impls.GetThePrice;
+import com.pools.prices.GetDefaultPrice;
+import com.pools.prices.impls.GetLowPrice;
+import com.pools.prices.impls.GetThePrice;
 
 public class TestTwo {
 

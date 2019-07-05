@@ -1,6 +1,6 @@
-package com.pools.hooks.impls;
+package com.pools.prices.impls;
 
-import com.pools.hooks.ShowUTheLowIntf;
+import com.pools.prices.ShowUTheLowIntf;
 
 public class GetLowPrice {
 
