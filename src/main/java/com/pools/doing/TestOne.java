@@ -6,8 +6,6 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import static java.lang.System.out;
-
 public class TestOne {
 
     private static int count = 0;
@@ -25,7 +23,7 @@ public class TestOne {
 
     public static void main(String[] args) {
         ScheduledThreadPoolExecutor stpe = new ScheduledThreadPoolExecutor(3);
-        stpe.scheduleAtFixedRate(() -> out.println("I wanna this for " + (count++) + " times"),
+        stpe.scheduleAtFixedRate(() -> System.out.println("I wanna this for " + (count++) + " times"),
                 3L, 1L, TimeUnit.SECONDS);
     }
 }
